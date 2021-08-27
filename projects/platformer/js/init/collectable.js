@@ -36,8 +36,9 @@
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
-        // example: 
-        createCollectable(type.db, 200, 170, 6, 0.7);
+        createCollectable(type.db, 525, 420, 6, 1);
+        createCollectable(type.db, 198, 230, 6, 1);
+        createCollectable(type.db, 850, 150, 6, 1);
         
        
         
