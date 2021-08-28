@@ -42,8 +42,7 @@
         createPlatform(485, 490, 0.3, 0.6); //botMidR
         createPlatform(170, 430, 0.3, 1); //botMidL
         createPlatform(0, 370, 0.2, 1); //botLeft
-        createPlatform(180, 300, 0.2, 0.1); //s1
-        //createPlatform(280, 250, 0.2, 0.2); //s2
+        createPlatform(180, 300, 0.3, 0.1); //s1
         createPlatform(450, 300, 0.2, 0.2); //s3
         createPlatform(700, 230, 0.8, 0.2); //s4
     
