@@ -44,7 +44,7 @@
         createPlatform(270, 280, 0.2, 0.1); //s2
         createPlatform(450, 300, 0.2, 0.2); //s3
         createPlatform(700, 230, 0.8, 0.2); //s4
-        createPlatform(850, 140, 0.2, 0.2); //final
+        createPlatform(850, 160, 0.2, 0.2); //final
     
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
