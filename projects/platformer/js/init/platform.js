@@ -38,11 +38,11 @@
 
         createPlatform(700, 580, 0.5, 1); //Right
         createPlatform(485, 490, 0.3, 0.6); //MidR
-        createPlatform(170, 430, 0.3, 1); //MidL
+        createPlatform(170, 430, 0.3, .2); //MidL
         createPlatform(0, 380, 0.2, 1); //Left
-        createPlatform(180, 300, 0.2, 0.1); //s1
+        createPlatform(180, 298, 0.25, 0.1); //s1
         createPlatform(270, 280, 0.2, 0.1); //s2
-        createPlatform(450, 300, 0.2, 0.2); //s3
+        createPlatform(450, 300, 0.4, 0.2); //s3
         createPlatform(700, 230, 0.8, 0.2); //s4
         createPlatform(850, 160, 0.2, 0.2); //final
     
