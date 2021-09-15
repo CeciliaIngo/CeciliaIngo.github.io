@@ -37,7 +37,7 @@
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
         createCollectable(type.db, 525, 420, 6, 1);
-        createCollectable(type.db, 198, 230, 6, 1);
+        createCollectable(type.db, 290, 230, 6, 0.5);
         createCollectable(type.db, 860, 100, 6, 1);
         
         
