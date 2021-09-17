@@ -42,7 +42,7 @@
         createPlatform(170, 430, 0.3, 0.02); //hidari
         createPlatform(0, 370, 0.2, 0.01); //hidari
         createPlatform(0, 190, 0.2, 0.001); //coin3
-        createPlatform(180, 298, 0.25, 0.001); //step
+        createPlatform(180, 298, 0.25, 0.01); //step
         createPlatform(270, 280, 0.2, 0.1); //coin4
         createPlatform(450, 300, 0.4, 0.001); //inv
         createPlatform(750, 220, 0.8, 0.02); //final
