@@ -11,7 +11,7 @@
 			background-image: url("https://cdn3.iconfinder.com/data/icons/unigrid-phantom-vehicles-vol-3/60/001_129_ufo_space_alien_extraterrestrial_cosmos_abduction_transport_ship-256.png");
 			background-size: 100px; 
 			font-size: 290%;
-			color: lightblue;
+			color: white;
 			text-align: right;
 			display: block;
 			position: absolute;
@@ -83,7 +83,7 @@
 					speed = -speed;
 				}
 				if (positionX < 0) {
-					speed = speed + 3;
+					speed += 3;
 				}
 			};
 
@@ -94,9 +94,9 @@
 			*/
 			function handleBoxClick() {
 				positionX = 0;
-				points = points + 1;
+				points += 1;
 				changeBoxText(points);
-				speed = speed + 3;
+				speed += 3;
 
 			};
 		})();
