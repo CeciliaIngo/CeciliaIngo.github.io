@@ -1,16 +1,3 @@
-//Report Card Simulation
-/*Program should:
-  -use functions
-  *-ask user what four classes they take
-  *-ask users what they got on four tests in each subject
-  *-calculates their test average
-  *-calculates their letter grade in each class
-  3-calculates their overall GPA
-  -prints all information like a report card
-*/
-//I recommend using 3 or 4 functions
-
-//Call functions below here
 
 var className1 = prompt("What class are you taking?");
 var classAvg1 = gradePrompt(className1);
