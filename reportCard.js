@@ -33,6 +33,8 @@ var GPA2 = indGPA(classAvg2);
 var GPA3 = indGPA(classAvg3);
 var GPA4 = indGPA(classAvg4);
 
+document.write("<p>" + "--------------------------------------------" + "</p>");
+
 var totalGPA = overallGPA(GPA1, GPA2, GPA3, GPA4);
 
 //Define functions below here
