@@ -31,8 +31,8 @@ document.write("--------------------");
 
 var result1 = guess(g, a, b, c, d, e, f);
 var result2 = guess(g, a, b, c, d, e, f);
-var result3 = guess(g, a, b, c, d, e, f);
-var result4 = guess(g, a, b, c, d, e, f);
+//var result3 = guess(g, a, b, c, d, e, f);
+//var result4 = guess(g, a, b, c, d, e, f);
 
 function guess(a, b, c, d, e, f){
   
