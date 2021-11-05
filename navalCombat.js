@@ -6,7 +6,7 @@ if the user misses a ship, a message shows up, telling them which grid space was
 if the user sinks all three boats, they win
 */
 
-alert("Welcome to Sinking Ships! You will be given a grid with rows from A-F and columns numbered 0-5.");
+alert("Welcome to Naval Combat! You will be given a grid with rows from A-F and columns numbered 0-5.");
 alert("Three ships will be placed somewhere on the grid and your objective is to find and hit all of the ships.");
 alert("If you choose a grid spot with a ship on it, the grid will mark a 1 in that spot. Once you sink all of the ships, you win!");
 
