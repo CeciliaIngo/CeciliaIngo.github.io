@@ -26,8 +26,8 @@ var dCorrect = ["D", 0, 1, 0, 0, 0, 0];
 var eCorrect = ["E", 0, 1, 0, 0, 0, 0];
 var fCorrect = ["F", 0, 1, 0, 0, 1, 1];
 
-document.write(g, a, b, c, d, e, f);
-document.write("--------------------");
+document.write("<p>" + g, a, b, c, d, e, f + "</p>");
+document.write("<p>" + "--------------------" + "</p>");
 
 var result1 = guess(g, a, b, c, d, e, f);
 var result2 = guess(g, a, b, c, d, e, f);
@@ -41,8 +41,8 @@ var guess1 = prompt("Pick a grid (ex: a1)");
   if (guess1 === "a2"){
     a[2] = 1;
     alert(a, b, c, d, e, f);
-    document.write(a, b, c, d, e, f);
-    document.write("--------------------");
+    document.write("<p>" + a, b, c, d, e, f + "</p>");
+    document.write("<p>" + "--------------------" + "</p>");
 }
   else if (guess1 === "a3"){
     a[3] = 1;
