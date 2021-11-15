@@ -31,65 +31,65 @@ document.write("<p>" + "--------------------" + "</p>");
 
 var result1 = guess(g, a, b, c, d, e, f);
 var result2 = guess(g, a, b, c, d, e, f);
-//var result3 = guess(g, a, b, c, d, e, f);
+var result3 = guess(g, a, b, c, d, e, f);
 //var result4 = guess(g, a, b, c, d, e, f);
 
-function guess(a, b, c, d, e, f){
+function guess(g, a, b, c, d, e, f){
   
 var guess1 = prompt("Pick a grid (ex: a1)");
   
   if (guess1 === "a2"){
     a[2] = 1;
-    alert(a, b, c, d, e, f);
-    document.write("<p>" + a, b, c, d, e, f + "</p>");
+    alert(g, a, b, c, d, e, f);
+    document.write("<p>" + g, a, b, c, d, e, f + "</p>");
     document.write("<p>" + "--------------------" + "</p>");
 }
   else if (guess1 === "a3"){
     a[3] = 1;
-    alert(a, b, c, d, e, f);
-    document.write(a, b, c, d, e, f);
+    alert(g, a, b, c, d, e, f);
+    document.write(g, a, b, c, d, e, f);
     document.write("--------------------");
   }
   else if (guess1 === "a4"){
     a[4] = 1;
-    alert(a, b, c, d, e, f);
-    document.write(a, b, c, d, e, f);
+    alert(g, a, b, c, d, e, f);
+    document.write(g, a, b, c, d, e, f);
     document.write("--------------------");
   }
   else if (guess1 === "c1"){
     c[1] = 1;
-    alert(a, b, c, d, e, f);
-    document.write(a, b, c, d, e, f);
+    alert(g, a, b, c, d, e, f);
+    document.write(g, a, b, c, d, e, f);
     document.write("--------------------");
   }
   else if (guess1 === "d1"){
     d[1] = 1;
-    alert(a, b, c, d, e, f);
-    document.write(a, b, c, d, e, f);
+    alert(g, a, b, c, d, e, f);
+    document.write(g, a, b, c, d, e, f);
     document.write("--------------------");
   }
   else if (guess1 === "e1"){
     e[1] = 1;
-    alert(a, b, c, d, e, f);
-    document.write(a, b, c, d, e, f);
+    alert(g, a, b, c, d, e, f);
+    document.write(g, a, b, c, d, e, f);
     document.write("--------------------");
   }
   else if (guess1 === "f1"){
     f[1] = 1;
-    alert(a, b, c, d, e, f);
-    document.write(a, b, c, d, e, f);
+    alert(g, a, b, c, d, e, f);
+    document.write(g, a, b, c, d, e, f);
     document.write("--------------------");
   }
   else if (guess1 === "f4"){
     f[4] = 1;
-    alert(a, b, c, d, e, f);
-    document.write(a, b, c, d, e, f);
+    alert(g, a, b, c, d, e, f);
+    document.write(g, a, b, c, d, e, f);
     document.write("--------------------");
   }
   else if (guess1 === "f5"){
     f[5] = 1;
-    alert(a, b, c, d, e, f);
-    document.write(a, b, c, d, e, f);
+    alert(g, a, b, c, d, e, f);
+    document.write(g, a, b, c, d, e, f);
     document.write("--------------------");
   }
   else {
